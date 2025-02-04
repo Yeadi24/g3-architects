@@ -6,3 +6,72 @@
   font-weight: 400;
   font-style: normal;
 }
+* {
+  margin: 0 auto;
+}
+/* colors */
+.dark01 {
+  color: #131313;
+}
+.dark02 {
+  color: #424242;
+}
+.dark03 {
+  color: #727272;
+}
+.bg-color {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+/* nav bar styles */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar h3 {
+  font-size: 2.8rem;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.nav-bar a {
+  text-decoration: none;
+  margin-left: 50px;
+}
+.nav-bar ul {
+  list-style-type: none;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+/* banner styles */
+.banner-content {
+  max-width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.banner-description {
+  margin-bottom: 25px;
+}
+.primary-btn {
+  background-color: #ff900e;
+  height: 4rem;
+  width: 11rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+.banner-img {
+  width: 80%;
+  margin: 0 auto;
+}
