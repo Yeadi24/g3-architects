@@ -115,6 +115,41 @@ section {
 .team-features h2 {
   font-size: 40px;
 }
+/* feature with girl  */
+.feature {
+  margin-left: 30px;
+  display: flex;
+}
+.heading {
+  font-size: 45px;
+  border-left: 5px solid orange;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.heading-description {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.writting2 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 25px;
+}
+.child {
+  width: 40vw;
+  height: 100px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 45px;
+  box-shadow: 0 4px 30px 0 #00000063;
+}
+.child-heading {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
 /* facts section */
 .main-facts p {
   margin-right: 60vw;
@@ -171,6 +206,19 @@ section {
   height: 50px;
   width: 60vw;
   padding-top: 30px;
+}
+.second {
+  height: 150px;
+  width: 250px;
+  position: relative;
+  bottom: 155px;
+  right: 40px;
+}
+.second h1 {
+  font-size: 45px;
+}
+.second h4 {
+  font-size: 16px;
 }
 /* Responsive Media Queries */
 
